@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>google page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        html {
+            height: 100%;
+            font-size: 100%;
+        }
+
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 14px;
+        }
+
+        ul {
+            padding: 0px;
+            line-height: 0px;
+            list-style: none;
+        }
+
+        li {
+            display: inline-block;
+            padding: 5px 7px;
+            vertical-align: middle;
+        }
+
+        nav,
+        footer {
+            padding: 4px 20px;
+        }
+
+        nav img {
+            list-style: none;
+            color: #000;
+            opacity: 0.85;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #000;
+            opacity: 0.75;
+
+        }
+
+        nav ul li a:hover {
+            text-decoration-line: underline;
+            opacity: 0.65;
+        }
+
+        .r_nav {
+            float: right;
+            position: relative;
+            padding-top: 0px;
+            padding-right: 8px;
+        }
+
+        .apps {
+            width: 20px;
+            height: 20px;
+            margin-top: -2px;
+            padding-right: 9px;
+            opacity: 0.75;
+        }
+
+        .apps:hover {
+            opacity: 1.5;
+        }
+
+        .sign_in {
+            border: 1px solid #4285f4;
+            outline: none;
+            background: #4285f4;
+            display: inline-block;
+            line-height: 28px;
+            padding: 0 12px;
+            border-radius: 2px;
+        }
+
+        .sign_in a {
+            font-weight: bold;
+            color: #fff;
+            opacity: 1;
+            text-decoration: none;
+        }
+
+        .sign_in a:hover {
+            opacity: 1;
+            text-decoration: none;
+        }
+
+        .sign_in:hover {
+            opacity: 1;
+            box-shadow: 0 1.5px 0 0 #e4e4e4;
+        }
+
+        .cnte_pg {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .logo {
+            display: 100%;
+            height: 92px;
+            width: 272px;
+            display: block;
+            margin: auto;
+        }
+
+        .form {
+            display: block;
+            margin: auto;
+        }
+
+        .search_bar {
+            border-radius: 40px;
+            width: 585px;
+            margin: auto;
+            height: 39px;
+            border: 1px solid #E4E4E4;
+            background-color: #fff;
+            box-shadow: 0px 1px 4px #E4E4E4;
+            margin-bottom: 20px;
+            outline: none;
+            text-indent: 15px;
+        }
+
+        .search_bar:hover,
+        .search_bar:active {
+            padding-bottom: 2px;
+            padding-top: 1px;
+            margin-top: -1px;
+            width: 585px;
+            box-shadow: 0px 3px 8px #E4E4E4;
+            outline: none;
+        }
+
+        .mic {
+            width: 14px;
+            height: 20px;
+            position: relative;
+            left: 555px;
+
+            top: 34px;
+        }
+
+        .submit_buttons {
+            display: inline-block;
+            height: 36px;
+            cursor: pointer;
+            line-height: 27px;
+            background-color: transparent;
+            /* border: 1px solid #9d9c9c; */
+            border: none;
+            border-radius: 4px;
+            color: #757575;
+            /* cursor: default; */
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 13px;
+            font-weight: bold;
+            margin: 11px 4px;
+            min-width: 54px;
+            padding: 0 16px;
+            text-align: center;
+        }
+
+        .submit_buttons {
+            position: relative;
+            left: 25%;
+            right: -50%;
+            cursor: pointer;
+        }
+
+        .submit_buttons:hover {
+            border: .7px solid #E4E4E4;
+        }
+
+        p {
+            color: #000;
+            opacity: 0.5;
+            position: relative;
+            /* left: 25%; */
+        }
+
+        .l_ftr {
+            float: left;
+        }
+
+        .r_ftr {
+            float: right;
+        }
+
+        footer {
+            line-height: 0px;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            color: #666666;
+            background-color: #f2f2f2;
+            border-top: solid 1px #e4e4e4;
+        }
+
+        footer a {
+            text-decoration: none;
+            color: #000;
+            opacity: 0.75;
+        }
+
+        footer a:hover {
+            text-decoration-line: underline;
+        }
+
+        p {
+            position: relative;
+            top: 20%;
+
+            bottom: -10%;
+        }
+
+        .cent_pg {
+            opacity: .7;
+            position: relative;
+            /* left: 10%; */
+            top: 10%;
+            /* color: #4285f4; */
+            display: flex;
+
+        }
+
+        .cent_pg li a {
+            list-style: none;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul class="r_nav">
+            <li><a href="#">Gmail</a></li>
+            <li><a href="#">Images</a></li>
+            <li><a href="#"><img class="apps" src="https://thumb.ibb.co/gykLCw/grid_menu.png" </a></li>
+            <li class="sign_in"><a href="#">Sign in</a></li>
+
+        </ul>
+    </nav>
+    <section class="cnte_pg">
+        <img class="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+            alt="Google_img">
+        <img class="mic" src="https://upload.wikimedia.org/wikipedia/commons/2/22/Google_microphone_logo.png" alt=" ">
+        <form action="#" method="#" name="seachquery">
+            <input type="text" name="searchfield" class="search_bar"></input>
+            <div class="sreach_buttons">
+                <input class="submit_buttons" type="submit" value="Google Search" name="submit"></input>
+
+                <input class="submit_buttons" type="submit" value="I'm Feeling Lucky" name="feelinglucky"></input>
+
+                <ul class="cent_pg">
+                    <li>Google offered in:</li>
+                    <li><a href="#">हिन्दी</a></li>
+                    <li><a href="">বাংলা</a></li>
+                    <li><a href="">తెలుగు</a></li>
+                    <li><a href="">मराठी</a> </li>
+                    <li><a href="">தமிழ்</a></li>
+                    <li><a href="">ગુજરાતી</a></li>
+                    <li><a href="">ಕನ್ನಡ</a></li>
+                    <li><a href="">മലയാളം</a></li>
+                    <li><a href="">ਪੰਜਾਬੀ</a> </li>
+
+                </ul>
+
+            </div>
+        </form>
+    </section>
+    <footer>
+        <ul class="l_ftr">
+            <li><a href="#">India</a></li>
+            <li><a href="#">About </a></li>
+        </ul>
+        <ul class="r_ftr">
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Trems</a></li>
+            <li><a href="#">Settings</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>
